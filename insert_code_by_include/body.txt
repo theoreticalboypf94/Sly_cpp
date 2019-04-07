@@ -1,0 +1,5 @@
+std::cout << "Congratulation! Now we are at function_from_txt body, it is writen in separate file and included by preprocessor dirrectory \n";
+
+std::cout << "3*arg1 = " << 3 * arg1 << std::endl; // comment in body.h
+
+return 2 * arg1;
